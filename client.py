@@ -16,3 +16,4 @@ for request in range(10):
     #  Get the reply.
     message = socket.recv()
     print("Received reply %s [ %s ]" % (request, message))
+return 0
